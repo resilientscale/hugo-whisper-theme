@@ -10,8 +10,14 @@
     border-radius: 3px;
     font-family: $font-family-mono;
     font-size: 0.9rem;
+    font-weight: bolder;
     line-height: 1.4;
   }
+
+  code.language-fallback {
+    font-weight: 400;
+  }
+
   pre {
     font-family: $font-family-mono;
     font-size: 0.9rem;
@@ -117,7 +123,6 @@
   }
   blockquote:before {
     color: #ccc;
-    content: open-quote;
     font-size: 4em;
     line-height: 0.1em;
     margin-right: 0.25em;
